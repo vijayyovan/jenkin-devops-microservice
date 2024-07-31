@@ -1,6 +1,7 @@
 
 //Declarative pipeline
 pipeline {
+    agent any
 // 	agent { docker { image 'node:13.8' } }
 //hi
 	environment {

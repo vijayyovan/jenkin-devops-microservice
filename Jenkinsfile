@@ -2,6 +2,7 @@
 //Declarative pipeline
 pipeline {
 // 	agent { docker { image 'node:13.8' } }
+//hi
 	environment {
 	    dockerHome = tool 'myDocker'
 	    mavenHome = tool 'myMaven'
